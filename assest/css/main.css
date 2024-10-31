@@ -1,3 +1,8 @@
+
+.app {
+    overflow: hidden;
+}
+
 .header {
     height: var(--header-height);
     background-image: linear-gradient(0, #fe6433 ,#f53e3d);
@@ -957,10 +962,11 @@
 /* App container */
 .app__container {
     background-color: #f5f5f5;
+    margin-top: 36px;
 }
 
 .app_content {
-    padding-top: 36px;
+    margin-top: 36px;
 }
 
 .category {
@@ -1285,6 +1291,7 @@ i.home-product-item__heart-icon-fill {
 
 .home-product__pagination {
     margin: 48px 0 32px 0;
+    padding-left: 0;
 }
 
 /* footer */
