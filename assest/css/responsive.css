@@ -48,6 +48,9 @@
     .header__sort-bar {
         display: flex;
     }
+    .app__content {
+        padding-top: 8px;
+    }
 }
 
 /* tablet */
@@ -107,6 +110,10 @@
         font-size: 1.6rem;
         min-width: 36px;
     }
+
+    /* .mobile-category__item::after {
+        text-decoration-color: brown;
+    } */
 
     @keyframes mobileSearch {
         from {
